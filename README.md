@@ -1,0 +1,2 @@
+# Fake Location
+This project uses `cordova-plugin-fakelocation` in a Capacitor project to display if the device can mock location data. The plugin is for Android in the app returns `yes` if the device is capable of mocking a location, `no` if the setting is off (and its Android) or `unknown` for any other scenario (eg iOS, web, Android below SDK 31).
